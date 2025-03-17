@@ -18,8 +18,12 @@ function HomePage() {
             Balancing <br /> Excellence and Efficiency through <br />
             <span className="text-green-800">Professional management...</span>
           </h1>
+          <h1 className="text-[36px] text-zinc-200 font-bold hidden 2xl:block mt-4">
+          “Together, let’s create a facility that reflects your vision,support and your growth.”
+
+          </h1>
           <button className="bg-[#3D4A6E] mt-8 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E]">
-            Book your First service
+            Get your First service
           </button>
         </div>
       </div>
