@@ -38,7 +38,7 @@ function Navbar() {
             return (
               <h1
                 key={index}
-                className="font-normal mr-10 text-lg cursor-pointer md:mr-6 hover:text-[#E31E25] transition duration-300 "
+                className="font-normal mr-10 text-lg cursor-pointer md:mr-6 hover:text-[#0cbcbd] transition duration-300 "
               >
                 {item}
               </h1>
