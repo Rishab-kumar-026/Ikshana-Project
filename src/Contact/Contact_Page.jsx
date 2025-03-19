@@ -6,7 +6,7 @@ import Footer from '../Home/Footer';
 
 function Contact_Page() {
   return (
-    <div>
+    <div className='w-screeen h-[100vh] overflow-y-auto'>
         <Navbar/>
         <Contact_Form />
         <Contact />

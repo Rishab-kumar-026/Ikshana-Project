@@ -2,7 +2,15 @@
 *{
     font-family: "Poppins", sans-serif;
     user-select: none;
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto !important;  /* Ensure instant scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 @keyframes loop-scroll {
@@ -23,6 +31,6 @@
   }
   
   body {
-    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
   }

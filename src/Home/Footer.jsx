@@ -1,8 +1,9 @@
 import React from "react";
 import logo from "../assets/Logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Footer() {
+  const {pathname} = useLocation();
   const Contact_data = [
     {
       Type: "Registered Office",
@@ -38,9 +39,9 @@ function Footer() {
             </h1>
           </div>
 
-          <button className="w-32 bg-zinc-300 px-4 py-2 rounded-lg font-semibold text-[14px] text-zinc-700">
+       {pathname === "/about" ? " " : <button className="w-32 bg-zinc-300 px-4 py-2 rounded-lg font-semibold text-[14px] text-zinc-700">
             <NavLink to="/about">Know more</NavLink>
-          </button>
+          </button>}
         </div>
 
         {Contact_data.map((item, index) => {
