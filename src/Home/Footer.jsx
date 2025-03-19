@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/Logo.png";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
   const Contact_data = [
@@ -38,7 +39,7 @@ function Footer() {
           </div>
 
           <button className="w-32 bg-zinc-300 px-4 py-2 rounded-lg font-semibold text-[14px] text-zinc-700">
-            Know more
+            <NavLink to="/about">Know more</NavLink>
           </button>
         </div>
 

@@ -45,11 +45,7 @@ function About_Details() {
 
       <div className="w-full mt-10 grid grid-cols-1 gap-y-10 md:mt-20 md:grid-cols-2 lg:mt-30 xl:gap-x-10">
         <div className="w-[100%] h-[40vh] mx-auto sm:w-[70%] sm:h-[40vh] md:h-[55vh] md:w-[90%] lg:h-[47vh] xl:h-[45vh] lg:mx-0 md:hidden">
-          <img
-            className="w-full h-full object-fit"
-            src={workers}
-            alt=""
-          />
+          <img className="w-full h-full object-fit" src={workers} alt="" />
         </div>
         <div className="sm:px-4 md:text-[15px] md:py-2 xl:py-4 xl:text-[18px]">
           <p className="font-normal tracking-wide leading-[1.5] mb-4">
@@ -74,11 +70,7 @@ function About_Details() {
         </div>
 
         <div className="hidden w-[100%] h-[40vh] mx-auto sm:w-[70%] sm:h-[40vh] md:h-[55vh] md:w-[90%] lg:h-[47vh] xl:h-[45vh] lg:mx-0 md:block">
-          <img
-            className="w-full h-full object-cover"
-            src={workers}
-            alt=""
-          />
+          <img className="w-full h-full object-cover" src={workers} alt="" />
         </div>
       </div>
     </div>
