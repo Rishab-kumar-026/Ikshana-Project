@@ -20,7 +20,7 @@ function Clients() {
 
   return (
     <div className="all-option-slider-section w-screen h-[12vh] bg-[#3E4D6F] overflow-hidden">
-      <div className="option-container w-full flex items-center h-[100%] px-2 rounded-lg mx-auto overflow-hidden">
+      <div className="option-container w-full flex items-center h-[100%] px-2 rounded-lg mx-auto overflow-hidden"> 
         <div className="option-container-box flex items-center gap-4 loop-scroll">
           {[...clients_data, ...clients_data].map((item, index) => (
             <div key={index + item}>  {/* ✅ Unique key using item name */}

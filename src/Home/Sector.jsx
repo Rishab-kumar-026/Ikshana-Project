@@ -34,7 +34,7 @@ function Sector() {
     },
   ];
   return (
-    <div className="w-screen h-fit px-6 mb-10 lg:mt-20 lg:px-16 xl:px-24 2xl:px-36">
+    <div className="w-screen h-fit px-6 mb-15 lg:mt-20 lg:px-16 xl:px-24 2xl:px-36">
       <h1 className="font-bold text-4xl text-[#3D4E6F] text-center mb-6">
         Our Core Sectors
       </h1>

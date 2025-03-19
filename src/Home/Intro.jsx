@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Intro() {
   return (
@@ -29,9 +30,9 @@ function Intro() {
         </p>
 
         <div className="w-full flex justify-start mt-5">
-          <button className="bg-[#3D4A6E] rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E] hover:border-2 border-[#3D4E6E]">
+          <NavLink to="/about" className="bg-[#3D4A6E] rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E] hover:border-2 border-[#3D4E6E]">
             Know more
-          </button>
+          </NavLink>
         </div>
       </div>
     </div>

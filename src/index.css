@@ -14,9 +14,15 @@
     }
   }
   
-
-  
   .loop-scroll {
     animation: loop-scroll 60s linear infinite;
   }
   
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  body {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }

@@ -10,7 +10,7 @@ function HomePage() {
         backgroundPosition: "top 5%",
         backgroundRepeat: "no-repeat",
       }}
-      className="w-screen h-[90vh] lg:h-[90vh] relative"
+      className="w-screen mt-15 h-[95vh] lg:h-[100vh] relative"
     >
       <div className="w-full h-auto">
         <div className="absolute top-[20%] mx-10 text-center py-4 sm:mx-34 md:mx-48 lg:left-[-3%] lg:text-start lg:w-[40%]">
