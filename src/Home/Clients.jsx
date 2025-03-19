@@ -16,6 +16,9 @@ function Clients() {
     "Dantu Villas",
     "Green Grace Apartments",
     "Equidistant Infrastructure Pvt Ltd",
+    "Kanchi Cafe",
+    "Artha Solutions",
+    "Shiva Sai Infraa",
   ];
 
   return (

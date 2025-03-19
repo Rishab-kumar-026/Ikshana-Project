@@ -4,6 +4,7 @@ import Home from './Home/Home'
 import About from './About/About'
 import Contact from './Contact/Contact_Page'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
+import Clinet from './Clinets/Clinet'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/clients" element={<Clinet />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
