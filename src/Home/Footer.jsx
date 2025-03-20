@@ -35,11 +35,11 @@ function Footer() {
               <i className="ri-mail-fill mr-2"></i> ceo@ikshanafacilities.com
             </h1>
             <h1>
-              <i className="ri-phone-fill mr-2"></i>+9154349224, +914035513315
+              <i className="ri-phone-fill mr-2"></i>+91-8978680223
             </h1>
           </div>
 
-       {pathname === "/about" ? " " : <button className="w-32 bg-zinc-300 px-4 py-2 rounded-lg font-semibold text-[14px] text-zinc-700">
+       {pathname === "/about" ? " " : <button className="w-32 bg-zinc-300 cursor-pointer px-4 py-2 rounded-lg font-semibold text-[14px] text-[#3D4A6E]">
             <NavLink to="/ikshana-facilities/about">Know more</NavLink>
           </button>}
         </div>
