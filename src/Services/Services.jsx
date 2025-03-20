@@ -6,6 +6,7 @@ import Footer from '../Home/Footer';
 import Service from '../Home/Service';
 
 function Services() {
+  document.title = "Ikshana Facilities | Services";
   return (
     <div className="w-screen h-[100vh] overflow-y-auto">
       <Navbar />

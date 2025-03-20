@@ -16,15 +16,15 @@ function App() {
     <div className="w-screen h-screen bg-zinc-100 overflow-x-hidden">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/security" element={<Security_Service />} />
-        <Route path="/facility" element={<Facility_Service />} />
-        <Route path="/pest" element={<Pest_Service />} />
-        <Route path="/janitorial" element={<Janitorial_Service />} />
-        <Route path="/homecare" element={<Homecare_Service />} />
-        <Route path="/clients" element={<Clinet />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/ikshana-facilities/about" element={<About />} />
+        <Route path="/ikshana-facilities/services" element={<Services />} />
+        <Route path="/ikshana-facilities/services/security-service" element={<Security_Service />} />
+        <Route path="/ikshana-facilities/services/facility-service" element={<Facility_Service />} />
+        <Route path="/ikshana-facilities/services/pest-control-service" element={<Pest_Service />} />
+        <Route path="/ikshana-facilities/services/janitorial-service" element={<Janitorial_Service />} />
+        <Route path="/ikshana-facilities/services/homecare-service" element={<Homecare_Service />} />
+        <Route path="/ikshana-facilities/clients" element={<Clinet />} />
+        <Route path="/ikshana-facilities/contact" element={<Contact />} />
       </Routes>
     </div>
   );

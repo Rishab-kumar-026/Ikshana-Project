@@ -7,10 +7,10 @@ function Navbar() {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
-    { name: "Clients", path: "/clients" },
-    { name: "Contact", path: "/contact" },
+    { name: "About", path: "/ikshana-facilities/about" },
+    { name: "Services", path: "/ikshana-facilities/services" },
+    { name: "Clients", path: "/ikshana-facilities/clients" },
+    { name: "Contact", path: "/ikshana-facilities/contact" },
   ];
 
   return (

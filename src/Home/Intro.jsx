@@ -30,7 +30,7 @@ function Intro() {
         </p>
 
         <div className="w-full flex justify-start mt-5">
-          <NavLink to="/about" className="bg-[#3D4A6E] rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E] hover:border-2 border-[#3D4E6E]">
+          <NavLink to="/ikshana-facilities/about" className="bg-[#3D4A6E] rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E] hover:border-2 border-[#3D4E6E]">
             Know more
           </NavLink>
         </div>

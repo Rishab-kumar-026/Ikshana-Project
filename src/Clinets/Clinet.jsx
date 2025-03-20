@@ -4,6 +4,7 @@ import Client_Details from './Client_Details'
 import Footer from '../Home/Footer'
 
 function Clinet() {
+  document.title = "Ikshana Facilities | Clients";
   return (
     <div className='w-screeen h-[100vh] overflow-y-auto'>
         <Navbar />

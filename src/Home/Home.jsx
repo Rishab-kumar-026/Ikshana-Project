@@ -11,6 +11,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 function Home() {
+  document.title = "Ikshana Facilities | HomePage";
   return (
     <div>
       <Navbar />

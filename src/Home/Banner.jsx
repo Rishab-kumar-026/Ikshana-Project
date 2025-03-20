@@ -19,7 +19,7 @@ function Banner() {
         Contact us today to customize our services to your needs and exceed
         expectations.
       </h1>
-      <button className="w-full bg-zinc-300 px-6 py-3 rounded-lg font-semibold text-lg mt-8 text-zinc-700 md:w-[80%] lg:w-[90%] xl:w-[80%]"><NavLink to="/contact">Contact Us</NavLink></button>
+      <button className="w-full bg-zinc-300 px-6 py-3 rounded-lg font-semibold text-lg mt-8 text-zinc-700 md:w-[80%] lg:w-[90%] xl:w-[80%]"><NavLink to="/ikshana-facilities/contact">Contact Us</NavLink></button>
 
       </div>
 

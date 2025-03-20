@@ -4,9 +4,9 @@ import About_Details from './About_Details'
 import Scores from '../Home/Scores'
 import Footer from '../Home/Footer'
 import Vision_Mission from './Vision_Mission'
-import { useEffect } from "react";
 
 function About() {
+  document.title = "Ikshana Facilities | About page";
   return (
     <div className='w-screeen h-[100vh] overflow-y-auto'>
       <Navbar />

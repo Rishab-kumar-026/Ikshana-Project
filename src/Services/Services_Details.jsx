@@ -5,23 +5,23 @@ function Services_Details() {
 
         const service_type = [{
             name: "Security Services",
-            category: "/security"
+            category: "/ikshana-facilities/services/security-service"
         },
         {
             name: "Facility Maintenance",
-            category: "/facility"
+            category: "/ikshana-facilities/services/facility-service"
         },
         {
             name: "Pest Control",
-            category: "/pest"
+            category: "/ikshana-facilities/services/pest-control-service"
         },
         {
             name: "Janitorial Services",
-            category: "/janitorial"
+            category: "/ikshana-facilities/services/janitorial-service"
         },
         {
             name: "Home Care Services",
-            category: "/homecare"
+            category: "/ikshana-facilities/services/homecare-service"
         }, ]
 
   return (

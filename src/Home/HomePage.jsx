@@ -24,7 +24,7 @@ function HomePage() {
 
           </h1>
           <button className="bg-[#3D4A6E] mt-8 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E]">
-            <NavLink to="/contact">Get Your First Service</NavLink>
+            <NavLink to="/ikshana-facilities/services">Get Your First Service</NavLink>
           </button>
         </div>
       </div>

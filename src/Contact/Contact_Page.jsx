@@ -5,6 +5,7 @@ import Contact from "../Home/Contact";
 import Footer from "../Home/Footer";
 
 function Contact_Page() {
+  document.title = "Ikshana Facilities | Contact";
   return (
     <div className="w-screeen h-[100vh] overflow-y-auto">
       <Navbar />
