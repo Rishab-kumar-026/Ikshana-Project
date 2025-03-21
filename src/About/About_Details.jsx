@@ -24,7 +24,7 @@ function About_Details() {
           <p className="font-normal tracking-wide leading-[1.5] mb-4">
             <span className="text-[#3D4E6F] font-bold">
               IKSHANA FACILITIES PVT LTD
-            </span>
+            </span> {" "}
             is a leading facility management company committed to delivering
             unmatched services and exceeding expectations. With great pride, I
             step into this role after serving 12 years as head HR, bringing my

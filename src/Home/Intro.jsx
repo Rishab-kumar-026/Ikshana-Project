@@ -38,7 +38,7 @@ function Intro() {
           initial={{ opacity: 0, y: 70 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 70 }}
           transition={{ type: "spring", stiffness: 120, damping: 10, delay: 0.5 }}
-          className="text-[18px] font-semibold tracking-tight leading-[1.3] text-zinc-700"
+          className="text-[17px] font-normal tracking-wide leading-[1.5] mb-4"
         >
           Ikshana Facilities Pvt Ltd is a dynamic and innovative facility
           management company established in January 2023, building on the solid
@@ -52,7 +52,7 @@ function Intro() {
           initial={{ opacity: 0, y: 70 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 70 }}
           transition={{ type: "spring", stiffness: 120, damping: 10, delay: 0.7 }}
-          className="text-[18px] hidden font-semibold tracking-tight mt-4 leading-[1.3] text-zinc-700 lg:block"
+          className="text-[17px] hidden font-normal tracking-wide leading-[1.5] mb-4 lg:block"
         >
           We understand the importance of a well-managed facility that not only
           meets the needs of your organization but also enhances productivity,
