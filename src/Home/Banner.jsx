@@ -19,7 +19,8 @@ function Banner() {
         Contact us today to customize our services to your needs and exceed
         expectations.
       </h1>
-      <button className="w-full cursor-pointer hover:bg-[#3D4A6F] hover:text-zinc-100 transition duration-300 bg-zinc-300 px-6 py-3 rounded-lg font-semibold text-lg mt-8 text-zinc-700 md:w-[80%] lg:w-[90%] xl:w-[80%]"><NavLink to="/ikshana-facilities/contact">Contact Us</NavLink></button>
+      <NavLink to="/ikshana-facilities/contact">
+      <button className="w-full cursor-pointer hover:bg-[#3D4A6F] hover:text-zinc-100 transition duration-300 bg-zinc-300 px-6 py-3 rounded-lg font-semibold text-lg mt-8 text-zinc-700 md:w-[80%] lg:w-[90%] xl:w-[80%]">Contact Us</button></NavLink>
 
       </div>
 

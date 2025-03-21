@@ -39,9 +39,9 @@ function Footer() {
             </h1>
           </div>
 
-       {pathname === "/about" ? " " : <button className="w-32 bg-zinc-300 cursor-pointer px-4 py-2 rounded-lg font-semibold text-[14px] text-[#3D4A6E]">
-            <NavLink to="/ikshana-facilities/about">Know more</NavLink>
-          </button>}
+       {pathname === "/ikshana-facilities/about" ? " " : <NavLink to="/ikshana-facilities/about"><button className="w-32 bg-zinc-300 cursor-pointer px-4 py-2 rounded-lg font-semibold text-[14px] text-[#3D4A6E]">
+            Know more
+          </button> </NavLink>}
         </div>
 
         {Contact_data.map((item, index) => {

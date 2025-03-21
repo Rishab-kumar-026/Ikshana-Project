@@ -102,11 +102,13 @@ function Janitorial_Service() {
                     {item.description}
                   </p>
 
-                  <div className="w-full flex items-center justify-center">
-                    <button className="w-full bg-[#3D4A6E] mt-5 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-white hover:border-2 hover:border-grey-900 hover:text-[#3D4E6E] lg:absolute lg:bottom-0 xl:w-[80%]">
-                      <NavLink to="/ikshana-facilities/contact">Get Your Service</NavLink>
-                    </button>
-                  </div>
+                  <NavLink to="/ikshana-facilities/contact">
+                    <div className="w-full flex items-center justify-center">
+                      <button className="w-full bg-[#3D4A6E] mt-5 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-white hover:border-2 hover:border-grey-900 hover:text-[#3D4E6E] lg:absolute lg:bottom-0 xl:w-[80%]">
+                        Get Your Service
+                      </button>
+                    </div>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -140,11 +142,13 @@ function Janitorial_Service() {
                     {item.description}
                   </p>
 
-                  <div className="w-full flex items-center justify-center">
-                    <button className="w-full bg-[#3D4A6E] mt-5 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-white hover:border-2 hover:border-grey-900 hover:text-[#3D4E6E] lg:absolute lg:bottom-0 xl:w-[80%]">
-                      <NavLink to="/ikshana-facilities/contact">Get Your Service</NavLink>
-                    </button>
-                  </div>
+                  <NavLink to="/ikshana-facilities/contact">
+                    <div className="w-full flex items-center justify-center">
+                      <button className="w-full bg-[#3D4A6E] mt-5 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-white hover:border-2 hover:border-grey-900 hover:text-[#3D4E6E] lg:absolute lg:bottom-0 xl:w-[80%]">
+                        Get Your Service
+                      </button>
+                    </div>
+                  </NavLink>
                 </div>
               </div>
             </div>

@@ -83,14 +83,16 @@ function HomePage() {
           </motion.h1>
 
           {/* Button Animation (Delayed Even More) */}
+          <NavLink to="/ikshana-facilities/services">
           <motion.button
             className="bg-[#3D4A6E] mt-8 rounded-lg px-6 py-4 text-md font-semibold text-center cursor-pointer text-white transition duration-300 hover:bg-zinc-200 hover:text-[#3D4E6E]"
             initial={{ opacity: 0, y: 70 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.8 }}
           >
-            <NavLink to="/ikshana-facilities/services">Get Your First Service</NavLink>
+           Get Your First Service
           </motion.button>
+          </NavLink>
         </div>
       </div>
     </div>
