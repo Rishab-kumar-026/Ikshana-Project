@@ -1,27 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
+import { motion, useInView } from "framer-motion"; // Import Framer Motion
 
 function Service() {
   const data = [
     {
       service_name: "Electrician",
-      img: "https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://images.unsplash.com/photo-1555963966-b7ae5404b6ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnx8fHx8fHwyfA%3D%3D",
       icon: "ri-lightbulb-flash-line",
       color: "text-orange-500",
-      info: " Reliable electrician services for all your wiring and repair needs.",
+      info: "Reliable electrician services for all your wiring and repair needs.",
     },
     {
       service_name: "Security",
-      img: "https://plus.unsplash.com/premium_photo-1682125939509-03aa8ae4b587?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://plus.unsplash.com/premium_photo-1682125939509-03aa8ae4b587?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnx8fHx8fHwyfA%3D%3D",
       icon: "ri-lock-2-fill",
       color: "text-green-500",
       info: "Trained security guards for your safety and peace of mind.",
     },
     {
       service_name: "Plumber",
-      img: "https://plus.unsplash.com/premium_photo-1664298589198-b15ff5382648?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://plus.unsplash.com/premium_photo-1664298589198-b15ff5382648?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlbnx8fHx8fHwyfA%3D%3D",
       icon: "ri-drop-fill",
       color: "text-blue-500",
-      info: " Expert plumbing solutions for leaks, repairs, and installations. ",
+      info: "Expert plumbing solutions for leaks, repairs, and installations.",
     },
     {
       service_name: "House Keeping",
@@ -70,35 +71,37 @@ function Service() {
 
   return (
     <div className="w-screen h-fit mt-8 pb-10 px-6 lg:mt-20 lg:px-16 xl:px-24 2xl:px-36">
-      <h1 className="font-bold text-4xl text-[#3D4E6F] text-center mb-6">
-        Our Services
-      </h1>
-      <div className="w-full grid grid-cols-1 gap-6 sm:grid-cols-2 gap-4 lg:grid-cols-3">
+      <h1 className="font-bold text-4xl text-[#3D4E6F] text-center mb-6">Our Services</h1>
+      
+      <div className="w-full grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {data.map((item, index) => {
+          const ref = useRef(null);
+          const isInView = useInView(ref, { once: true, margin: "-50px" });
+
           return (
-            <div key={index}
+            <motion.div
+              key={index}
+              ref={ref}
+              initial={{ opacity: 0, y: 50 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              transition={{ type: "spring", stiffness: 100, damping: 12, delay: index * 0.2 }}
               className="relative w-full h-[45vh] bg-red-100 mx-auto rounded-xl sm:w-full"
               style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5), rgba(0,0,0,.7)), 
-        url(${item.img})`,
+                backgroundImage: `linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.5), rgba(0,0,0,.7)), url(${item.img})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}
             >
-              <h1 className="font-semibold absolute bottom-4 left-4 text-xl text-white">
-                {item.service_name}
-              </h1>
-              <i
-                className={`${item.icon} absolute bottom-4 right-4 text-2xl ${item.color}`}
-              ></i>
+              <h1 className="font-semibold absolute bottom-4 left-4 text-xl text-white">{item.service_name}</h1>
+              <i className={`${item.icon} absolute bottom-4 right-4 text-2xl ${item.color}`}></i>
 
               <div className="Information h-full flex items-center justify-center relative cursor-pointer group">
                 <p className="w-[70%] text-zinc-300 p-2 font-semibold leading-[1.5] tracking-wide absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                 {item.info}
+                  {item.info}
                 </p>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

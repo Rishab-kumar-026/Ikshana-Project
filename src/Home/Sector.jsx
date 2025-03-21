@@ -8,7 +8,7 @@ function Sector() {
         "https://i.pinimg.com/736x/58/cf/8a/58cf8aea0a0986010400b59467731f8f.jpg",
     },
     {
-      name: "Jwellers",
+      name: "Jewellers",
       img_src:
         "https://i.pinimg.com/736x/d6/e5/9a/d6e59a91efbb90b581490c09d6d0e14c.jpg",
     },
