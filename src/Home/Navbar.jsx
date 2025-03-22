@@ -11,7 +11,9 @@ function Navbar() {
     { name: "About", path: "/ikshana-facilities/about" },
     { name: "Services", path: "/ikshana-facilities/services" },
     { name: "Clients", path: "/ikshana-facilities/clients" },
+    { name: "Careers", path: "/ikshana-facilities/careers" },
     { name: "Contact", path: "/ikshana-facilities/contact" },
+    
   ];
 
   return (
@@ -47,7 +49,7 @@ function Navbar() {
       )}
 
       {/* Desktop Menu with Animation */}
-      <div className="hidden lg:flex items-center justify-between space-x-10 text-white">
+      <div className="hidden lg:flex items-center justify-between space-x-8 text-white">
         {navLinks.map((link, index) => (
           <motion.div
             key={index}

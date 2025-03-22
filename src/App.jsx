@@ -10,6 +10,8 @@ import Facility_Service from "./Services/Facility_Service";
 import Pest_Service from "./Services/Pest_Service";
 import Janitorial_Service from "./Services/Janitorial_Service";
 import Homecare_Service from "./Services/Homecare_Service";
+import Career from "./Careers/Career";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path="/ikshana-facilities/services/homecare-service" element={<Homecare_Service />} />
         <Route path="/ikshana-facilities/clients" element={<Clinet />} />
         <Route path="/ikshana-facilities/contact" element={<Contact />} />
+        <Route path="/ikshana-facilities/careers" element={<Career />} />
       </Routes>
     </div>
   );
