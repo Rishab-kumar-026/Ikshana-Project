@@ -70,10 +70,11 @@ function Application_form() {
 
             <input
               className="w-full p-3 rounded-lg outline-none bg-[#fff] shadow-md placeholder-gray-500"
-              type="date"
+              type="text"
               name="dob"
               value={formData.dob}
               onChange={handleChange}
+              placeholder="DOB"
               required
             />
             <select
