@@ -50,7 +50,7 @@ function Career_Banner() {
               View Job Roles
             </button>
           </NavLink>
-          <NavLink>
+          <NavLink to="/ikshana-facilities/careers/application-form">
             <button className="w-full px-5 py-3 bg-[#3D4A6F] rounded-lg cursor-pointer md:w-[25vw] xl:w-[15vw]">
               Apply Now
             </button>

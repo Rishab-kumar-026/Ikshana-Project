@@ -11,6 +11,7 @@ import Pest_Service from "./Services/Pest_Service";
 import Janitorial_Service from "./Services/Janitorial_Service";
 import Homecare_Service from "./Services/Homecare_Service";
 import Career from "./Careers/Career";
+import Application_form from "./Careers/Application_form";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/ikshana-facilities/clients" element={<Clinet />} />
         <Route path="/ikshana-facilities/contact" element={<Contact />} />
         <Route path="/ikshana-facilities/careers" element={<Career />} />
+        <Route path="/ikshana-facilities/careers/application-form" element={<Application_form />} />
       </Routes>
     </div>
   );
