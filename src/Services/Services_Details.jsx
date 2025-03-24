@@ -25,7 +25,7 @@ function Services_Details() {
         }, ]
 
   return (
-    <div className="w-screen h-auto mt-26 pb-10 mb-10 px-6 lg:mt-28 lg:px-16 xl:px-24 2xl:px-36">
+    <div className="w-screen h-auto mt-26 px-6 lg:mt-28 lg:px-16 xl:px-24 2xl:px-36">
     <h1 className="font-bold text-2xl text-[#3D4E6F] text-center mb-6 sm:text-4xl">
         What kind of Service you want ?
       </h1>

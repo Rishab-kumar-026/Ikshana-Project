@@ -4,6 +4,9 @@ import About_Details from './About_Details'
 import Scores from '../Home/Scores'
 import Footer from '../Home/Footer'
 import Vision_Mission from './Vision_Mission'
+import Core_Values from '../Careers/Core_Values'
+import Training_Development from '../Services/Training_Development'
+import FAQ from './FAQ'
 
 function About() {
   document.title = "Ikshana Facilities | About page";
@@ -13,6 +16,8 @@ function About() {
       <About_Details />
       <Scores/>
       <Vision_Mission />
+      <Core_Values />
+      <FAQ />
       <Footer />
     </div>
   )

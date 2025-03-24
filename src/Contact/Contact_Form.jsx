@@ -46,7 +46,7 @@ function Contact_Form() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            placeholder="Enter your name"
+            placeholder="Full name"
             required
           />
           <input

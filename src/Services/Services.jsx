@@ -4,6 +4,7 @@ import Services_Details from './Services_Details';
 import Banner from '../Home/Banner';
 import Footer from '../Home/Footer';
 import Service from '../Home/Service';
+import Training_Development from './Training_Development';
 
 function Services() {
   document.title = "Ikshana Facilities | Services";
@@ -14,6 +15,7 @@ function Services() {
         <Service />
       </div>
       <Services_Details />
+      <Training_Development />
       <Banner />
       <Footer />
     </div>
