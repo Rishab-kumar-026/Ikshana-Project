@@ -4,6 +4,7 @@ import Career_Banner from './Career_Banner';
 import Career_Info from './Career_Info';
 import Core_Values from './Core_Values';
 import Footer from '../Home/Footer';
+import Compliance from './Compliance';
 
 function Career() {
     document.title = "Ikshana Facilities | Careers";
@@ -13,6 +14,7 @@ function Career() {
         <Career_Banner />
         <Career_Info />
         <Core_Values />
+        <Compliance />
         <Footer />
     </div>
   )
