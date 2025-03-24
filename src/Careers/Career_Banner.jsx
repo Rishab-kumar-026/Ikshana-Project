@@ -45,7 +45,7 @@ function Career_Banner() {
         </p>
 
         <div className="w-full mt-8 flex flex-col md:flex-row md:gap-x-5">
-          <NavLink>
+          <NavLink to="/ikshana-facilities/careers/job-roles">
             <button className="w-full px-5 py-3 bg-[#3D4A6F] rounded-lg mb-4 cursor-pointer md:mb-0 md:w-[25vw] xl:w-[15vw]">
               View Job Roles
             </button>

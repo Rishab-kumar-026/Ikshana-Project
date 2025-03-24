@@ -12,6 +12,7 @@ import Janitorial_Service from "./Services/Janitorial_Service";
 import Homecare_Service from "./Services/Homecare_Service";
 import Career from "./Careers/Career";
 import Application_form from "./Careers/Application_form";
+import Job_Roles from "./Careers/Job_Roles";
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/ikshana-facilities/contact" element={<Contact />} />
         <Route path="/ikshana-facilities/careers" element={<Career />} />
         <Route path="/ikshana-facilities/careers/application-form" element={<Application_form />} />
+        <Route path="/ikshana-facilities/careers/job-roles" element={<Job_Roles />} />
       </Routes>
     </div>
   );
