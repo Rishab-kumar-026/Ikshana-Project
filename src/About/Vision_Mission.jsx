@@ -48,7 +48,7 @@ function Vision_Mission() {
             <div className="flex items-center justify-center gap-x-2 mb-5">
               <img className="w-16 h-16" src={mission} alt="" />
               <h1 className="font-bold text-4xl text-[#3D4E6F] text-center">
-                Our Vision
+                Our Mission
               </h1>
             </div>
             <p className="md:text-[18px] xl:text-[18px] font-normal tracking-wide leading-[1.5] my-4 sm:text-center lg:text-start">
