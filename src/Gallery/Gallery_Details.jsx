@@ -1,6 +1,9 @@
 import React from "react";
+import Health_Care_Video from "../assets/Health Care video.mp4";
+import Security_Video from "../assets/Security Video.mp4";
 
 function Gallery_Details() {
+    document.title = "Ikshana Facilities | Gallery"
   const data = [
     {      img: "https://i.pinimg.com/736x/b9/0e/2d/b90e2d6b5c091797ed87c3f8a2298cb2.jpg",
     },
@@ -51,6 +54,24 @@ function Gallery_Details() {
           );
         })}
       </div>
+<div className="lg:flex gap-x-5">
+    
+<div className="w-full mb-6 mt-10">
+                <video className="w-full rounded-md shadow-lg" controls>
+                    <source src={Health_Care_Video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+
+            <div className="w-full mb-6 mt-10">
+                <video className="w-full rounded-md shadow-lg" controls>
+                    <source src={Security_Video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+</div>
     </div>
   );
 }
