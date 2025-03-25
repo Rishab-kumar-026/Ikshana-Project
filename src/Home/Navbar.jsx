@@ -12,6 +12,7 @@ function Navbar() {
     { name: "Services", path: "/ikshana-facilities/services" },
     { name: "Clients", path: "/ikshana-facilities/clients" },
     { name: "Careers", path: "/ikshana-facilities/careers" },
+    { name: "Gallery", path: "/ikshana-facilities/gallery" },
     { name: "Contact", path: "/ikshana-facilities/contact" },
     
   ];
